@@ -1,24 +1,11 @@
 # Issues
 
-**TODO: Add description**
+** Sample project (from Dave Thomas' book)
 
 ## Installation
 
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed as:
+Creates a command line application (using escript) to fetch github issues
 
-  1. Add `issues` to your list of dependencies in `mix.exs`:
-
-    ```elixir
-    def deps do
-      [{:issues, "~> 0.1.0"}]
-    end
-    ```
-
-  2. Ensure `issues` is started before your application:
-
-    ```elixir
-    def application do
-      [applications: [:issues]]
-    end
-    ```
+Example:
+  escript issues elixir-lang elixir 20 _(on windows it requires 'escript <script_name> <arguments>')_
 
