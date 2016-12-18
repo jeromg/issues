@@ -1,6 +1,6 @@
 # Issues
 
-** Sample project (from Dave Thomas' book)
+## Sample project (from Dave Thomas' book)
 
 ## Installation
 
